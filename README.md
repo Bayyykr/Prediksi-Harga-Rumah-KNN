@@ -4,13 +4,13 @@
 
 \## Deskripsi
 
-Proyek ini berisi implementasi \*\*Machine Learning regresi\*\* untuk memprediksi harga rumah berdasarkan beberapa karakteristik fisik dan lokasi.  
+Proyek ini berisi implementasi Machine Learning regresi untuk memprediksi harga rumah berdasarkan beberapa karakteristik fisik dan lokasi.  
 
-Model dibangun menggunakan algoritma \*\*K-Nearest Neighbors (KNN)\*\* dengan Python dan scikit-learn.
+Model dibangun menggunakan algoritma K-Nearest Neighbors (KNN) dengan Python dan scikit-learn.
 
 
 
-Tujuan utama proyek ini adalah untuk memahami penerapan KNN pada kasus \*\*regresi\*\*, termasuk preprocessing data dan evaluasi performa model.
+Tujuan utama proyek ini adalah untuk memahami penerapan KNN pada kasus regresi, termasuk preprocessing data dan evaluasi performa model.
 
 
 
@@ -24,17 +24,17 @@ Dataset berisi data rumah di beberapa wilayah dengan fitur berikut:
 
 \- `lokasi` – Lokasi rumah (contoh: Jember, Banyuwangi)
 
-\- `luas\_tanah\_m2` – Luas tanah (m²)
+\- `luas_tanah_m2` – Luas tanah (m²)
 
-\- `luas\_bangunan\_m2` – Luas bangunan (m²)
+\- `luas_bangunan_m2` – Luas bangunan (m²)
 
-\- `jumlah\_kamar` – Jumlah kamar
+\- `jumlah_kamar` – Jumlah kamar
 
-\- `jarak\_ke\_pusat\_kota\_km` – Jarak ke pusat kota (km)
+\- `jarak_ke_pusat_kota_km` – Jarak ke pusat kota (km)
 
-\- `usia\_bangunan\_tahun` – Usia bangunan (tahun)
+\- `usia_bangunan_tahun` – Usia bangunan (tahun)
 
-\- `harga\_rumah\_juta` – Harga rumah (dalam juta rupiah)
+\- `harga_rumah_juta` – Harga rumah (dalam juta rupiah)
 
 
 
@@ -68,7 +68,7 @@ Dataset berisi data rumah di beberapa wilayah dengan fitur berikut:
 
 \## Model
 
-\- Algoritma: \*\*K-Nearest Neighbors Regressor\*\*
+\- Algoritma: K-Nearest Neighbors Regressor
 
 \- Jumlah tetangga (`k`) = 3
 
@@ -84,11 +84,11 @@ Dataset berisi data rumah di beberapa wilayah dengan fitur berikut:
 
 Model dievaluasi menggunakan:
 
-\- \*\*R-Squared (R²)\*\*
+\- R-Squared (R²)
 
-\- \*\*Mean Absolute Error (MAE)\*\*
+\- Mean Absolute Error (MAE)
 
-\- \*\*Mean Squared Error (MSE)\*\*
+\- Mean Squared Error (MSE)
 
 
 
@@ -98,13 +98,13 @@ Model dievaluasi menggunakan:
 
 \- Dengan scaling: performa meningkat secara signifikan  
 
-&nbsp; - R² mencapai sekitar \*\*0.77\*\*
+&nbsp; - R² mencapai sekitar 0.77
 
 &nbsp; - Error prediksi (MAE dan MSE) menjadi lebih kecil
 
 
 
-Hal ini menunjukkan bahwa \*\*standardisasi fitur sangat berpengaruh\*\* pada performa KNN.
+Hal ini menunjukkan bahwa standardisasi fitur sangat berpengaruh pada performa KNN.
 
 
 
@@ -134,9 +134,9 @@ Hal ini menunjukkan bahwa \*\*standardisasi fitur sangat berpengaruh\*\* pada pe
 
 Prediksi-Harga-Rumah-KNN/
 
-├── Prediksi\_Harga\_Rumah\_Menggunakan\_KNN.ipynb
+├── Prediksi_Harga_Rumah_Menggunakan_KNN.ipynb
 
-├── data\_harga\_rumah\_bwi\_jbr.csv
+├── data_harga_rumah_bwi_jbr.csv
 
 └── README.md
 
